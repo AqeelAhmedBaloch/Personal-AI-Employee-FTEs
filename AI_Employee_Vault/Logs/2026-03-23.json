@@ -1,0 +1,9 @@
+[
+  {"timestamp": "2026-03-23T16:27:54.514080", "action_type": "file_dropped", "actor": "FilesystemWatcher", "file_name": "test-file.md", "file_type": "Markdown", "file_size": 18, "action_file": "..\\AI_Employee_Vault\\Needs_Action\\FILE_DROP_test_file_20260323_162703.md"}
+,
+  {"timestamp": "2026-03-23T16:31:51.103992", "action_type": "file_dropped", "actor": "FilesystemWatcher", "file_name": "test_document.txt", "file_type": "Text", "file_size": 0, "action_file": "..\\AI_Employee_Vault\\Needs_Action\\FILE_DROP_test_document_20260323_163151.md"}
+,
+  {"timestamp": "2026-03-23T16:46:21.851329", "action_type": "file_dropped", "actor": "FilesystemWatcher", "file_name": "client_invoice_request.txt", "file_type": "Invoice", "file_size": 0, "action_file": "..\\AI_Employee_Vault\\Needs_Action\\FILE_DROP_client_invoice_request_20260323_164621.md"}
+,
+  {"timestamp": "2026-03-23T17:04:19.677616", "action_type": "file_dropped", "actor": "FilesystemWatcher", "file_name": "test-file - Copy.md", "file_type": "Markdown", "file_size": 18, "action_file": "..\\AI_Employee_Vault\\Needs_Action\\FILE_DROP_test_file___Copy_20260323_170419.md"}
+]
