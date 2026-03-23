@@ -2,7 +2,7 @@
 
 > **Your life and business on autopilot. Local-first, agent-driven, human-in-the-loop.**
 
-Build an **Autonomous AI Employee (Digital FTE)** that works 24/7 to manage your personal and business affairs using **Claude Code** + **Obsidian** + **Python Watchers**.
+Build an **Autonomous AI Employee (Digital FTE)** that works 24/7 to manage your personal and business affairs using **Qwen Code** + **Obsidian** + **Python Watchers**.
 
 ---
 
@@ -60,7 +60,7 @@ A **Digital Full-Time Equivalent (FTE)** is an AI agent that replaces human empl
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| **The Brain** | Claude Code | Reasoning engine, task execution |
+| **The Brain** | Qwen Code | Reasoning engine, task execution |
 | **The Memory/GUI** | Obsidian | Dashboard, knowledge base (local Markdown) |
 | **The Senses** | Python Watchers | Monitor Gmail, WhatsApp, filesystems 24/7 |
 | **The Hands** | MCP Servers | External actions (email, browser, payments) |
@@ -118,7 +118,7 @@ Personal-AI-Employee-FTEs/
 
 | Software | Version | Purpose |
 |----------|---------|---------|
-| [Claude Code](https://claude.com/product/claude-code) | Active subscription | Primary reasoning engine |
+| [Qwen Code](https://github.com/anthropics/qwen-code) | Latest | Primary reasoning engine |
 | [Obsidian](https://obsidian.md/download) | v1.10.6+ | Knowledge base & dashboard |
 | [Python](https://www.python.org/downloads/) | 3.13+ | Sentinel scripts & orchestration |
 | [Node.js](https://nodejs.org/) | v24+ LTS | MCP servers & automation |
@@ -162,7 +162,7 @@ Personal-AI-Employee-FTEs/
 
 - ✅ Obsidian vault with Dashboard.md, Company_Handbook.md, Business_Goals.md
 - ✅ One working Watcher script (File System or Gmail)
-- ✅ Claude Code reading/writing to vault
+- ✅ Qwen Code reading/writing to vault
 - ✅ Basic folder structure: `/Inbox`, `/Needs_Action`, `/Done`
 - ✅ All AI functionality as Agent Skills
 
@@ -256,6 +256,12 @@ python orchestrator.py ../AI_Employee_Vault
 2. Move file to `Approved/` folder
 3. Watcher will execute the approved action
 
+#### Test Qwen Code Integration
+1. Place a task file in `Needs_Action/`
+2. Orchestrator triggers Qwen Code
+3. Qwen creates `Plan.md` with action items
+4. Check `Done/` folder when complete
+
 ---
 
 ## 🔧 Available Agent Skills
@@ -288,7 +294,7 @@ Sensitive actions require approval:
 ```
 
 ### 4. Ralph Wiggum Loop
-Stop hook that keeps Claude working until multi-step tasks are complete.
+Stop hook that keeps Qwen Code working until multi-step tasks are complete.
 
 ---
 
@@ -341,6 +347,6 @@ This project is part of the Personal AI Employee Hackathon 2026.
 
 ---
 
-**Built with ❤️ using Claude Code + Obsidian + Python**
+**Built with ❤️ using Qwen Code + Obsidian + Python**
 
 *Silver Tier Complete - March 2026*
