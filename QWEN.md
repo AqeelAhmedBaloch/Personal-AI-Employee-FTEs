@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a **hackathon project** for building **Autonomous AI Employees (Digital FTEs)** - AI agents that work 24/7 to manage personal and business affairs. The project uses **Claude Code** as the reasoning engine and **Obsidian** (local Markdown) as the dashboard/memory system.
+This is a **hackathon project** for building **Autonomous AI Employees (Digital FTEs)** - AI agents that work 24/7 to manage personal and business affairs. The project uses **Qwen Code** as the reasoning engine and **Obsidian** (local Markdown) as the dashboard/memory system.
 
 **Core Concept:** A "Digital Full-Time Equivalent" (FTE) that costs ~$500-2000/month vs $4000-8000/month for a human, works 168 hours/week (vs 40), and provides 85-90% cost savings per task.
 
@@ -22,9 +22,25 @@ The Bronze Tier foundation has been fully implemented:
 | Base Watcher Template | ✅ | `scripts/base_watcher.py` |
 | Orchestrator | ✅ | `scripts/orchestrator.py` |
 | Folder Structure | ✅ | All 11 folders created |
-| Claude Integration | ✅ | Via orchestrator.py |
+| Qwen Integration | ✅ | Via orchestrator.py |
 
-**Verification:** Run `python scripts/verify_bronze.py` to confirm all requirements.
+---
+
+## ✅ Silver Tier - COMPLETED
+
+The Silver Tier functional assistant has been fully implemented:
+
+| Requirement | Status | Location |
+|-------------|--------|----------|
+| Gmail Watcher | ✅ | `scripts/gmail_watcher.py` |
+| LinkedIn Watcher | ✅ | `scripts/linkedin_watcher.py` |
+| HITL Approval | ✅ | `scripts/hitl_approval.py` |
+| Scheduler | ✅ | `scripts/scheduler.py` |
+| Plan.md Creation | ✅ | In orchestrator.py |
+| Agent Skills (7) | ✅ | `.qwen/skills/` |
+| Gmail Auth | ✅ | `scripts/gmail_authenticate.py` |
+
+**Verification:** Run `python scripts/verify_silver.py` to confirm all requirements.
 
 ## Architecture
 

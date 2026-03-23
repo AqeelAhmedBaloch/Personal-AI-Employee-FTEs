@@ -1,0 +1,6 @@
+2026-03-23 18:19:21,547 - LinkedInWatcher - INFO - Session path: linkedin_session
+2026-03-23 18:19:21,547 - LinkedInWatcher - INFO - Starting LinkedInWatcher
+2026-03-23 18:19:21,548 - LinkedInWatcher - INFO - Vault path: ..\AI_Employee_Vault
+2026-03-23 18:19:21,548 - LinkedInWatcher - INFO - Check interval: 300s
+2026-03-23 18:19:21,548 - LinkedInWatcher - INFO - Press Ctrl+C to stop
+2026-03-23 18:21:43,656 - LinkedInWatcher - INFO - LinkedInWatcher stopped by user
